@@ -1,3 +1,4 @@
+import { Hero } from "@/components/sections/Hero";
 import { Navbar } from "@/components/sections/Navbar";
 
 export default function Home() {
@@ -6,7 +7,7 @@ export default function Home() {
       <Navbar />
 
       <main>
-        AI Vision UI Generator
+        <Hero />
       </main>
     </>
   );
